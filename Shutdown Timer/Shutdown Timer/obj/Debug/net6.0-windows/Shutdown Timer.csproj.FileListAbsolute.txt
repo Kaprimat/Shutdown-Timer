@@ -1,0 +1,17 @@
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\bin\Debug\net6.0-windows\Shutdown Timer.exe
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\bin\Debug\net6.0-windows\Shutdown Timer.deps.json
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\bin\Debug\net6.0-windows\Shutdown Timer.runtimeconfig.json
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\bin\Debug\net6.0-windows\Shutdown Timer.dll
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\bin\Debug\net6.0-windows\ref\Shutdown Timer.dll
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\bin\Debug\net6.0-windows\Shutdown Timer.pdb
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown Timer.csproj.AssemblyReference.cache
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown_Timer.Form1.resources
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown Timer.csproj.GenerateResource.cache
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown Timer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown Timer.AssemblyInfoInputs.cache
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown Timer.AssemblyInfo.cs
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown Timer.csproj.CoreCompileInputs.cache
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown Timer.dll
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\ref\Shutdown Timer.dll
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown Timer.pdb
+D:\Dokumente\Christoph\GitHub Projects\Shutdown-Timer\Shutdown Timer\Shutdown Timer\obj\Debug\net6.0-windows\Shutdown Timer.genruntimeconfig.cache

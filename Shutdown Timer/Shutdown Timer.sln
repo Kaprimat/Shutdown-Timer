@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shutdown Timer", "Shutdown Timer\Shutdown Timer.csproj", "{EFBB2B18-06EA-4D6B-981F-9A090FB8A084}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFBB2B18-06EA-4D6B-981F-9A090FB8A084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBB2B18-06EA-4D6B-981F-9A090FB8A084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBB2B18-06EA-4D6B-981F-9A090FB8A084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBB2B18-06EA-4D6B-981F-9A090FB8A084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {993B7904-3363-4702-960A-90D890CB8891}
+	EndGlobalSection
+EndGlobal
