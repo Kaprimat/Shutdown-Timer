@@ -46,6 +46,8 @@
             this.rbShutdown = new System.Windows.Forms.RadioButton();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.Close = new System.Windows.Forms.Button();
+            this.btnMin = new System.Windows.Forms.Button();
+            this.btnUnvisible = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -59,6 +61,7 @@
             this.btnStop.TabIndex = 1;
             this.btnStop.Text = "Stop";
             this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // btnStart
             // 
@@ -216,13 +219,33 @@
             // 
             // Close
             // 
-            this.Close.Location = new System.Drawing.Point(772, 12);
+            this.Close.Location = new System.Drawing.Point(741, 12);
             this.Close.Name = "Close";
             this.Close.Size = new System.Drawing.Size(25, 22);
             this.Close.TabIndex = 6;
             this.Close.Text = "X";
             this.Close.UseVisualStyleBackColor = true;
-            this.Close.Click += new System.EventHandler(this.button1_Click_1);
+            this.Close.Click += new System.EventHandler(this.Close_Click_1);
+            // 
+            // btnMin
+            // 
+            this.btnMin.Location = new System.Drawing.Point(710, 12);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(25, 22);
+            this.btnMin.TabIndex = 7;
+            this.btnMin.Text = "___";
+            this.btnMin.UseVisualStyleBackColor = true;
+            this.btnMin.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // btnUnvisible
+            // 
+            this.btnUnvisible.Location = new System.Drawing.Point(772, 12);
+            this.btnUnvisible.Name = "btnUnvisible";
+            this.btnUnvisible.Size = new System.Drawing.Size(25, 22);
+            this.btnUnvisible.TabIndex = 8;
+            this.btnUnvisible.Text = "S";
+            this.btnUnvisible.UseVisualStyleBackColor = true;
+            this.btnUnvisible.Click += new System.EventHandler(this.btnUnvisible_Click);
             // 
             // Form1
             // 
@@ -230,6 +253,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(809, 434);
+            this.Controls.Add(this.btnUnvisible);
+            this.Controls.Add(this.btnMin);
             this.Controls.Add(this.Close);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -268,5 +293,7 @@
         private RadioButton rbRestart;
         private System.Windows.Forms.Timer timer;
         private Button Close;
+        private Button btnMin;
+        private Button btnUnvisible;
     }
 }

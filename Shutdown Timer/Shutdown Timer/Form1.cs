@@ -1,3 +1,4 @@
+using System.Diagnostics;
 namespace Shutdown_Timer
 {
     public partial class Form1 : Form
@@ -27,6 +28,11 @@ namespace Shutdown_Timer
         {
 
         }
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            timer.Stop();
+            lblTimer.Text = "00:00:00";
+        }
 
         private void btnStart_Click(object sender, EventArgs e)
         {
@@ -48,11 +54,6 @@ namespace Shutdown_Timer
                 timer.Start();
                 lblTimer.Text = timeLeft.ToString(@"hh\:mm\:ss");
             }
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Environment.Exit(0);
         }
 
         private void checkIfEmpty()
@@ -79,6 +80,42 @@ namespace Shutdown_Timer
             if (timeLeft.TotalSeconds <= 0)
             {
                 timer.Stop();
+                PerformAction();
+            }
+        }
+        private void PerformAction()
+        {
+            if (rbShutdown.Checked)
+            {
+                Process.Start("shutdown", "/s");
+            }else if (rbRestart.Checked)
+            {
+                Process.Start("shutdown", "/r");
+            }else if (rbStandBy.Checked)
+            {
+                Process.Start("rundll32.exe", "powrprof.dll,SetSuspendState");
+            }
+        }
+
+        private void Close_Click_1(object sender, EventArgs e)
+        {
+            var confirm = MessageBox.Show("If you Close the Program, the Timer will stop. Use the \"S \"Button to minimize the Program", "Do you want to Quit?", MessageBoxButtons.YesNo);
+            if (confirm == DialogResult.Yes)
+            {
+                Environment.Exit(0);
+            }
+        }
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnUnvisible_Click(object sender, EventArgs e)
+        {
+            var confirm = MessageBox.Show("If you Minimize the Program, you can only end the Program with the Task manager", "Do you want to Minimize?", MessageBoxButtons.YesNo);
+            if (confirm == DialogResult.Yes)
+            {
+                this.Visible = false;
             }
         }
     }
